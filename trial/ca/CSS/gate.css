@@ -1,0 +1,247 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+}
+
+*{
+    margin: 0px;
+}
+
+.back{
+    position: absolute;
+    top: 5vh;
+    left: 3vw;
+}
+
+.door{
+    position: absolute;
+    top: 4vh;
+    left: 77vw;
+    height: 43vh;
+}
+
+.lock{
+    position: relative;
+    top: 15vh;
+    left: 40vw;
+    height: 70vh;
+    z-index: 15;
+}
+
+.input{
+    width: 15vw;
+    height: 13vh;
+    position: absolute;
+    top: 21.4vh;
+    left: 43.9vw;
+    border-radius: 10px;
+    z-index: 16;
+}
+
+.button{
+    margin: 0px;
+    padding: 0;
+    position: absolute;
+    left: 43.5vw;
+    top: 39vh;
+    width: 29vw;
+    height: 41vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    z-index: 16;
+}
+
+.b1.b2.b3.b4.b5.b6.b7.b8.b9{
+    margin: 0;
+    border: black, 2px;
+    z-index: 16;
+}
+
+.b123.b456.b789{
+    display:flex;
+    justify-content: space-between;
+}
+
+.b1{
+    top: 30vh;
+    left: 40vw;
+}
+
+.b2{
+    top: 30vh;
+    left: 50vw;
+}
+
+.b3{
+    top: 30vh;
+    left: 60vw;
+}
+
+.b4{
+    top: 40vh;
+    left: 40vw;
+}
+
+.b5{
+    top: 40vh;
+    left: 50vw;
+}
+
+.b6{
+    top: 40vh;
+    left: 60vw;
+}
+
+.b7{
+    top: 50vh;
+    left: 40vw;
+}
+
+.b8{
+    top: 50vh;
+    left: 50vw;
+}
+
+.b9{
+    top: 50vh;
+    left: 60vw;
+}
+
+.enter{
+    width: 50px;
+    height: 25px;
+    border-radius: 5px;
+    border: black, 2px;
+    color: gray;
+
+    text-align: center;
+    font-weight: 2px;
+    font-size: 5px;
+
+    position: absolute;
+    top: 33vh;
+    left: 20vw;
+}
+
+
+.carpet{
+    width: 80vw;
+    height: 90vh;
+    position: absolute;
+    top: 12vw;
+    left: 8vw;
+  }
+  
+  .book{
+    width: 11vw;
+    position: absolute;
+    top: 17vw;
+    left: 5vw;
+  }
+  
+  .lock2{
+    width: 3vw;
+    position: absolute;
+    right: 17vh;
+    bottom: 34vw;
+    z-index: 2;
+  }
+  
+  .garbage{
+    width: 8vw;
+    position: absolute;
+    left: 25vw;
+    bottom: 18vw;
+  }
+  
+  .lgrassnormal{
+    width: 15vw;
+    position: absolute;
+    left: 8vw;
+    top: 2vw;
+  }
+  
+  .rgrass{
+    width: 8.7vw;
+    position: absolute;
+    left: 52vw;
+    top: 0vw;
+    z-index: 1;
+  }
+  
+  .sofanormal{
+    width: 33vw;
+    position: absolute;
+    left: 35vw;
+    top: 3vw;
+    z-index: 10;
+  }
+
+  .pillow{
+    width: 13vw;
+    position: absolute;
+    left: 49vw;
+    top: 11vw;
+    z-index: 12;
+  }
+  
+  .table{
+    width: 40vw;
+    position: absolute;
+    left: 31vw;
+    top: 18vw;
+    z-index: 13;
+  }
+
+  .robot{
+    width: 14vw;
+    position: absolute;
+    right: 17vw;
+    bottom: 20vw;
+    z-index: 2;
+  }
+
+  .net{
+    width: 6vw;
+    position: absolute;
+    right: 26vw;
+    bottom: 21vw;
+    z-index: 3;
+  }
+  
+  .rcabinet{
+    width: 22vw;
+    position: absolute;
+    right: -2vw;
+    bottom:-2vw;
+  }
+  
+  .lcabinet{
+    width: 22vw;
+    position: absolute;
+    left: -2vw;
+    bottom:-2vw;
+    transform: rotateY(180deg);
+  }
+  
+  .rlightclose{
+    width: 15vw;
+    position: absolute;
+    right: -4vw;
+    bottom: 5vw;
+    transform: rotateY(180deg);
+    z-index: 5;
+  }
+
+  .llightclose{
+    width: 15vw;
+    position: absolute;
+    left: -4vw;
+    bottom: 5vw;
+    z-index: 5;
+  }

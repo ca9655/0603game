@@ -1,0 +1,25 @@
+html, body{
+    padding: 0px;
+    position: relative;
+}
+
+*{
+    margin: 0px;
+}
+
+.div{
+    color: black;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 10vh;
+    left: 5vw;
+}
+
+.next{
+    position: absolute;
+    top: 40vh;
+    left: 35vw;
+    display: none;
+    border-radius: 1vw;
+    border-color: #DBE3F5;
+}

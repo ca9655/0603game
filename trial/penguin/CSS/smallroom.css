@@ -1,0 +1,251 @@
+html, body{
+  margin: auto;
+  padding: auto;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+}
+
+.carpet{
+  width: 80vw;
+  height: 90vh;
+  position: absolute;
+  top: 12vw;
+  left: 8vw;
+}
+
+.book{
+  width: 11vw;
+  position: absolute;
+  top: 17vw;
+  left: 5vw;
+}
+
+.door{
+  height: 43vh;
+  position: absolute;
+  top: 4vh;
+  left: 77vw;
+  z-index: 1;
+}
+
+.lock{
+  width: 3vw;
+  position: absolute;
+  right: 17vh;
+  bottom: 34vw;
+  z-index: 2;
+}
+
+.garbage{
+  width: 8vw;
+  position: absolute;
+  left: 25vw;
+  bottom: 18vw;
+}
+
+.lgrassnormal{
+  width: 15vw;
+  position: absolute;
+  left: 8vw;
+  top: 2vw;
+  z-index: 10;
+}
+
+.lgrasspaper{
+  width: 15vw;
+  position: absolute;
+  left: 8vw;
+  top: 2vw;
+  display: none;
+  z-index: 10;
+}
+
+.rgrass{
+  width: 8.7vw;
+  position: absolute;
+  left: 52vw;
+  top: 0vw;
+}
+
+.sofanormal{
+  width: 33vw;
+  position: absolute;
+  left: 35vw;
+  top: 3vw;
+  z-index: 10;
+}
+
+.sofapaper{
+  width: 33vw;
+  position: absolute;
+  left: 35vw;
+  top: 3vw;
+  z-index: 10;
+  display: none;
+}
+
+.pillow{
+  width: 13vw;
+  position: absolute;
+  left: 49vw;
+  top: 11vw;
+  z-index: 12;
+}
+
+.table{
+  width: 40vw;
+  position: absolute;
+  left: 31vw;
+  top: 18vw;
+  z-index: 13;
+}
+
+.food{
+  width: 18vw;
+  position: absolute;
+  left: 42vw;
+  top: 20vw;
+  z-index: 14;
+}
+
+.robot1{
+  width: 14vw;
+  position: absolute;
+  right: 17vw;
+  bottom: 20vw;
+  z-index: 2;
+}
+
+.robot2{
+  width: 14vw;
+  position: absolute;
+  right: 17vw;
+  bottom: 20vw;
+  display: none;
+  z-index: 2;
+}
+
+.robot3{
+  width: 14vw;
+  position: absolute;
+  right: 17vw;
+  bottom: 20vw;
+  display: none;
+  z-index: 2;
+}
+
+.net{
+  width: 6vw;
+  position: absolute;
+  right: 26vw;
+  bottom: 21vw;
+  z-index: 3;
+}
+
+.rcabinet{
+  width: 22vw;
+  position: absolute;
+  right: -2vw;
+  bottom:-2vw;
+}
+
+.lcabinet{
+  width: 22vw;
+  position: absolute;
+  left: -2vw;
+  bottom:-2vw;
+  transform: rotateY(180deg);
+}
+
+.rlightclose{
+  width: 15vw;
+  position: absolute;
+  right: -4vw;
+  bottom: 5vw;
+  transform: rotateY(180deg);
+  z-index: 5;
+}
+
+.rlightpaper{
+  width: 15vw;
+  position: absolute;
+  right: -4vw;
+  bottom: 5vw;
+  transform: rotateY(180deg);
+  z-index: 5;
+  display: none;
+}
+
+.llightclose{
+  width: 15vw;
+  position: absolute;
+  left: -4vw;
+  bottom: 5vw;
+  z-index: 5;
+}
+
+.llight{
+  width: 15vw;
+  position: absolute;
+  left: -4vw;
+  bottom: 5vw;
+  z-index: 5;
+  display: none;
+}
+
+.lbookcase{
+  position: absolute;
+  width: 4.3vw;
+  height: 50vh;
+  top: 0vh;
+  left: 0vw;
+}
+
+.rbookcase{
+  position: absolute;
+  width: 4.3vw;
+  height: 50vh;
+  top: 0vh;
+  right: 0vw;
+}
+
+.fish{
+  position: absolute;
+  width: 66.8vw;
+  height: 37vh;
+  top: 0vh;
+  left: 4.5vw;
+  z-index: 0;
+}
+
+.black{
+  opacity: 0.7;
+  background-color: black;
+  color: white;
+  position: absolute;
+  z-index: 15;
+  display: none;
+  width: 100vw;
+  height: 30vh;
+  bottom: 0vh;
+  left: 0vw;
+}
+
+.p{
+  position: absolute;
+  display: none;
+  width: 70vw;
+  height: 20vh;
+  top: 0vh;
+  left: 10vw;
+  font-size: 1.5vw;
+}
+
+.continue{
+  position: absolute;
+  display: none;
+  top: 19vh;
+  left: 74vw;
+}
+

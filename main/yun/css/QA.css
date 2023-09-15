@@ -1,0 +1,176 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+}
+
+*{
+    margin: 0;
+  }
+
+.back{
+    position: absolute;
+    top: 5vh;
+    left: 3vw;
+    text-align: center;
+}
+
+.Q{
+    position: absolute;
+    top: 25vh;
+    left: 25vw;
+    width: 50vw;
+    height: 50vh;
+    z-index: 16;
+    font-size: 2vw;
+}
+
+.Q1{
+  position: absolute;
+  top: -2vh;
+  left: 14vw;
+  z-index: 16;
+}
+
+.que{
+  font-size: 2.5vw;
+}
+
+.Q2{
+  position: absolute;
+  top: 45vh;
+  left: 17.5vw;
+  z-index: 16;
+  text-align: center;
+}
+
+.Q2jpg{
+    position: absolute;
+    top: 0vh;
+    left: 13vw;
+    width: 22.5vw;
+    z-index: 16;
+}
+
+.Q3{
+  position: absolute;
+  top: -2vh;
+  left: 6vw;
+  z-index: 16;
+  text-align: center;
+}
+
+.Q4{
+  position: absolute;
+  top: 5vh;
+  left: 13vw;
+  z-index: 16;
+  text-align: center;
+}
+
+.paper{
+    position: absolute;
+    top: 3vh;
+    left: 27.5vw;
+    width: 45vw;
+    z-index: 15;
+}
+
+
+  	
+
+.carpet{
+    width: 80vw;
+    height: 90vh;
+    position: absolute;
+    top: 12vw;
+    left: 8vw;
+  }
+  
+.book{
+    width: 11vw;
+    position: absolute;
+    top: 17vw;
+    left: 5vw;
+  }
+  
+.lock2{
+    width: 3vw;
+    position: absolute;
+    right: 17vh;
+    bottom: 34vw;
+    z-index: 2;
+  }
+
+.door{
+    height: 43vh;
+    position: absolute;
+    top: 4vh;
+    left: 77vw;
+    z-index: 1;
+}
+  
+.garbage{
+    width: 8vw;
+    position: absolute;
+    left: 25vw;
+    bottom: 18vw;
+  }
+  
+.lgrassnormal{
+    width: 15vw;
+    position: absolute;
+    left: 8vw;
+    top: 2vw;
+  }
+
+.robot{
+    width: 14vw;
+    position: absolute;
+    right: 17vw;
+    bottom: 20vw;
+    z-index: 2;
+  }
+
+.net{
+    width: 6vw;
+    position: absolute;
+    right: 26vw;
+    bottom: 21vw;
+    z-index: 3;
+  }
+  
+.rcabinet{
+    width: 22vw;
+    position: absolute;
+    right: -2vw;
+    bottom:-2vw;
+  }
+  
+.lcabinet{
+    width: 22vw;
+    position: absolute;
+    left: -2vw;
+    bottom:-2vw;
+    transform: rotateY(180deg);
+  }
+  
+.rlightclose{
+    width: 15vw;
+    position: absolute;
+    right: -4vw;
+    bottom: 5vw;
+    transform: rotateY(180deg);
+    z-index: 5;
+  }
+
+.llightclose{
+    width: 15vw;
+    position: absolute;
+    left: -4vw;
+    bottom: 5vw;
+    z-index: 5;
+  }
+  
