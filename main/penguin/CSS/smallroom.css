@@ -1,3 +1,11 @@
+/* @import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+
+*{
+  font-family: "cwTeXFangSong", serif;
+  line-height: 130%;
+  font-size: medium;
+} */
+
 html, body{
   margin: auto;
   padding: auto;
@@ -248,11 +256,6 @@ html, body{
   display: none;
   top: 19vh;
   left: 74vw;
-}
-
-@import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
-.Q{
-    font-family: "cwTeXFangSong", serif;
 }
 
 

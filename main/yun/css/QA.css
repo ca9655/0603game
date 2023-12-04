@@ -1,3 +1,10 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+
+*{
+  font-family: "cwTeXFangSong", serif;
+  line-height: 130%;
+}
+
 html, body{
     margin: 0;
     padding: 0;
