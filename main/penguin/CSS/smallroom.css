@@ -24,7 +24,7 @@ html, body{
 .door{
   height: 43vh;
   position: absolute;
-  top: 4vh;
+  top: 5dvh;
   left: 77vw;
   z-index: 1;
 }
@@ -32,7 +32,8 @@ html, body{
 .lock{
   width: 3vw;
   position: absolute;
-  right: 17vh;
+  top: 15dvh;
+  right: 20dvh;
   bottom: 34vw;
   z-index: 2;
 }
