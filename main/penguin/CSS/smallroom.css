@@ -32,7 +32,7 @@ html, body{
 .door{
   height: 43vh;
   position: absolute;
-  top: 5dvh;
+  top: 1.5dvh;
   left: 77vw;
   z-index: 1;
 }
@@ -41,7 +41,7 @@ html, body{
   width: 3vw;
   position: absolute;
   top: 15dvh;
-  right: 20dvh;
+  right: 17dvh;
   bottom: 34vw;
   z-index: 2;
 }

@@ -32,10 +32,10 @@ html, body{
 }
 
 .input{
-    width: 15vw;
-    height: 13vh;
+    width: 16.5vw;
+    height: 14vh;
     position: absolute;
-    top: 21.4vh;
+    top: 21.2vh;
     left: 43.9vw;
     border-radius: 10px;
     z-index: 16;
@@ -125,7 +125,7 @@ html, body{
 
     position: absolute;
     top: 33vh;
-    left: 20vw;
+    left: 23vw;
 }
 
 
