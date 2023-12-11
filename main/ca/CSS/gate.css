@@ -23,7 +23,7 @@ html, body{
     height: 43vh;
 }
 
-.lock{
+.lock2{
     position: relative;
     top: 15vh;
     left: 40vw;
@@ -32,11 +32,11 @@ html, body{
 }
 
 .input{
-    width: 16.5vw;
+    width: 16.9vw;
     height: 14vh;
     position: absolute;
     top: 21.2vh;
-    left: 43.9vw;
+    left: 44vw;
     border-radius: 10px;
     z-index: 16;
 }
@@ -144,7 +144,7 @@ html, body{
     left: 5vw;
   }
   
-  .lock2{
+  .lock{
     width: 3vw;
     position: absolute;
     right: 17vh;
