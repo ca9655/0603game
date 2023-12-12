@@ -67,7 +67,7 @@ $(document).ready(function(){
     $(".enter").click(
         function enter(){
             n = Number($(".input").val());
-            if(n === 7655){
+            if(n === 6553){
                 alert("喀噠，門開了……")
                 $(location).attr("href","../HTML/success.html")
             }else{
